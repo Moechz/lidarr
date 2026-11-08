@@ -67,8 +67,8 @@ automated validation (no ARM host was available for a container E2E).
 
 ```bash
 scripts/build.sh                  # -> out/lidarrdocker.tar.gz + .sha256
-scripts/build.sh 3.1.6.5079-2   # packaging iteration bump
-scripts/build.sh 3.1.6.5079-1 aarch64
+scripts/build.sh 3.1.6-2   # packaging iteration bump
+scripts/build.sh 3.1.6-1 aarch64
 ```
 
 The build stages the four files, substitutes the version/platform placeholders,
@@ -94,12 +94,12 @@ bash test/install-and-verify.sh                  # on-device E2E (needs root)
 ## Store submission checklist
 
 1. Public GitHub repo (code + README only).
-2. Release **tag `v3.1.6.5079-1`**, assets `lidarrdocker.tar.gz` +
+2. Release **tag `v3.1.6-1`**, assets `lidarrdocker.tar.gz` +
    `lidarrdocker.tar.gz.sha256` (Docker asset naming: `<app_id>.tar.gz`, **no
    platform suffix**).
 3. Developer platform → Add Application: ID `lidarrdocker`, package type Docker,
    repository URL, architecture `x86_64`.
-4. Version Management → Add Version `3.1.6.5079-1` → automated validation → review.
+4. Version Management → Add Version `3.1.6-1` → automated validation → review.
 
 ## License / branding
 

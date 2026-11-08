@@ -2,7 +2,7 @@
 
 All notable user-visible changes to the Lidarr TOS application package.
 
-## 3.1.6.5079-1 — 2026-11-08
+## 3.1.6-1 — 2026-11-08
 
 ### Added
 - First release. Lidarr (`linuxserver/lidarr:3.1.6.5079-ls47`, Docker Hub official image, unmodified)
