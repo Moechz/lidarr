@@ -5,7 +5,7 @@
   "repo_name": "lidarr",
   "github_repo": "lidarr",
   "upstream_version": "3.1.6",
-  "version": "3.1.6-1",
+  "version": "3.1.6-2",
   "mode": "plain",
   "icon_slug": "lidarr",
   "container_port": 8686,
